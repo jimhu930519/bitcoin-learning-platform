@@ -30,3 +30,13 @@
     }
   }
 }
+/* 錨點偏移，避免被導覽列遮住 */
+section {
+  scroll-margin-top: 6rem;
+}
+
+@media (min-width: 640px) {
+  section {
+    scroll-margin-top: 7rem;
+  }
+}
